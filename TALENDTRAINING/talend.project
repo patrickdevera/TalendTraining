@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_3o2ScbJPEeevlaVzxGohvg" label="TalendTraining" description="This project is for training purposes only." language="java" technicalLabel="TALENDTRAINING" creationDate="2017-10-16T14:45:46.591+0800" author="_3o2ScrJPEeevlaVzxGohvg" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/patrickdevera/TalendTraining.git&quot;,&quot;login&quot;:&quot;patrickdevera&quot;,&quot;passwd&quot;:&quot;E3IscNlJJmB8yKd8MTrq5w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM"/>
+  <TalendProperties:User xmi:id="_3o2ScrJPEeevlaVzxGohvg" login="patrick.devera@novare.com.hk" firstName="Emil Patrick" lastName="De Vera" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
