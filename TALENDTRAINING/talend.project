@@ -87,10 +87,6 @@
     </implicitContextSettings>
     <ItemsRelations xmi:id="_2Y8EILLbEeei0OEA1QVWWw">
       <baseItem xmi:id="_2Y8EIbLbEeei0OEA1QVWWw" id="_xlblQK8fEeeKsJcVdXQxTA" version="0.1" type="job"/>
-      <relatedItems xmi:id="_2Y8EIrLbEeei0OEA1QVWWw" id="_mPSvEK8BEeehM-9z-SXCTQ" version="Latest" type="context"/>
-      <relatedItems xmi:id="_2Y8EI7LbEeei0OEA1QVWWw" id="_g2lO4K8KEeehM-9z-SXCTQ" version="Latest" type="context"/>
-      <relatedItems xmi:id="_2Y8EJLLbEeei0OEA1QVWWw" id="_z-IN4K8SEeehM-9z-SXCTQ" version="Latest" type="context"/>
-      <relatedItems xmi:id="_2Y8EJbLbEeei0OEA1QVWWw" id="_CcDpUK8OEeehM-9z-SXCTQ" version="Latest" type="property"/>
       <relatedItems xmi:id="_2Y8EJrLbEeei0OEA1QVWWw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2Y8EJ7LbEeei0OEA1QVWWw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2Y8EKLLbEeei0OEA1QVWWw" id="TalendString" version="Latest" type="routine"/>
@@ -107,7 +103,6 @@
       <relatedItems xmi:id="_2Y8EM7LbEeei0OEA1QVWWw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2Y8ENLLbEeei0OEA1QVWWw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2Y8ENbLbEeei0OEA1QVWWw" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_2Y8ENrLbEeei0OEA1QVWWw" id="_8Fi1MK73EeehM-9z-SXCTQ - metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_2Y8EN7LbEeei0OEA1QVWWw" id="_vhQ6oK8KEeehM-9z-SXCTQ - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_3-yGMLJPEeevlaVzxGohvg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>

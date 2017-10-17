@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="LocalMySQL_Login" prompt="LocalMySQL_Login?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_String" value="root"/>
-    <contextParameter comment="" name="LocalMySQL_Server" prompt="LocalMySQL_Server?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="LocalMySQL_Port" prompt="LocalMySQL_Port?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_String" value="3306"/>
-    <contextParameter comment="" name="LocalMySQL_Database" prompt="LocalMySQL_Database?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_String" value="training"/>
-    <contextParameter comment="" name="LocalMySQL_AdditionalParams" prompt="LocalMySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="LocalMySQL_Password" prompt="LocalMySQL_Password?" promptNeeded="false" repositoryContextId="_z-IN4K8SEeehM-9z-SXCTQ" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="RetailCustomers_File" prompt="RetailCustomers_File?" promptNeeded="false" repositoryContextId="_mPSvEK8BEeehM-9z-SXCTQ" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Talend Training/refCustomer.csv"/>
-    <contextParameter comment="" name="RetailCustomers_FieldSeparator" prompt="RetailCustomers_FieldSeparator?" promptNeeded="false" repositoryContextId="_mPSvEK8BEeehM-9z-SXCTQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="RetailCustomers_Encoding" prompt="RetailCustomers_Encoding?" promptNeeded="false" repositoryContextId="_mPSvEK8BEeehM-9z-SXCTQ" type="id_String" value="US-ASCII"/>
-    <contextParameter comment="" name="RetailCustomers_RowSeparator" prompt="RetailCustomers_RowSeparator?" promptNeeded="false" repositoryContextId="_mPSvEK8BEeehM-9z-SXCTQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="RetailCustomers_Header" prompt="RetailCustomers_Header?" promptNeeded="false" repositoryContextId="_mPSvEK8BEeehM-9z-SXCTQ" type="id_Integer" value="1"/>
-    <contextParameter comment="" name="RetailProducts_FieldSeparator" prompt="RetailProducts_FieldSeparator?" promptNeeded="false" repositoryContextId="_g2lO4K8KEeehM-9z-SXCTQ" type="id_String" value="&quot;;&quot;"/>
-    <contextParameter comment="" name="RetailProducts_RowSeparator" prompt="RetailProducts_RowSeparator?" promptNeeded="false" repositoryContextId="_g2lO4K8KEeehM-9z-SXCTQ" type="id_String" value="&quot;\n&quot;"/>
-    <contextParameter comment="" name="RetailProducts_File" prompt="RetailProducts_File?" promptNeeded="false" repositoryContextId="_g2lO4K8KEeehM-9z-SXCTQ" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Talend Training/refProduct.csv"/>
-    <contextParameter comment="" name="RetailProducts_Encoding" prompt="RetailProducts_Encoding?" promptNeeded="false" repositoryContextId="_g2lO4K8KEeehM-9z-SXCTQ" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="LocalMySQL_Login" prompt="LocalMySQL_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter comment="" name="LocalMySQL_Server" prompt="LocalMySQL_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="LocalMySQL_Port" prompt="LocalMySQL_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalMySQL_Database" prompt="LocalMySQL_Database?" promptNeeded="false" type="id_String" value="training"/>
+    <contextParameter comment="" name="LocalMySQL_AdditionalParams" prompt="LocalMySQL_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="LocalMySQL_Password" prompt="LocalMySQL_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="RetailCustomers_File" prompt="RetailCustomers_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Talend Training/refCustomer.csv"/>
+    <contextParameter comment="" name="RetailCustomers_FieldSeparator" prompt="RetailCustomers_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="RetailCustomers_Encoding" prompt="RetailCustomers_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="RetailCustomers_RowSeparator" prompt="RetailCustomers_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="RetailCustomers_Header" prompt="RetailCustomers_Header?" promptNeeded="false" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="RetailProducts_FieldSeparator" prompt="RetailProducts_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="RetailProducts_RowSeparator" prompt="RetailProducts_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="RetailProducts_File" prompt="RetailProducts_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Talend Training/refProduct.csv"/>
+    <contextParameter comment="" name="RetailProducts_Encoding" prompt="RetailProducts_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -131,8 +131,6 @@
   </parameters>
   <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_CcDpUK8OEeehM-9z-SXCTQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MYSQL"/>
     <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
@@ -220,8 +218,6 @@
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8Fi1MK73EeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_vhQ6oK8KEeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Patrick de Vera/workspace&quot;" show="false"/>
@@ -278,8 +274,6 @@
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_CcDpUK8OEeehM-9z-SXCTQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -369,8 +363,6 @@
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8Fi1MK73EeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_vhQ6oK8KEeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Patrick de Vera/workspace&quot;" show="false"/>
@@ -427,8 +419,6 @@
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_CcDpUK8OEeehM-9z-SXCTQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -518,8 +508,6 @@
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_8Fi1MK73EeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_vhQ6oK8KEeehM-9z-SXCTQ - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/Patrick de Vera/workspace&quot;" show="false"/>
@@ -576,8 +564,6 @@
   </node>
   <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_3" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_CcDpUK8OEeehM-9z-SXCTQ" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
