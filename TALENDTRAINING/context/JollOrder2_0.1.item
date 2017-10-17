@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_oAB-4LMdEeei0OEA1QVWWw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_oAB-4bMdEeei0OEA1QVWWw" comment="" name="JollOrder2_Encoding" prompt="JollOrder2_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+  <contextParameter xmi:id="_oAB-4rMdEeei0OEA1QVWWw" comment="" name="JollOrder2_File" prompt="JollOrder2_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/JollOrder2.csv"/>
+  <contextParameter xmi:id="_oAB-47MdEeei0OEA1QVWWw" comment="" name="JollOrder2_RowSeparator" prompt="JollOrder2_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_oAB-5LMdEeei0OEA1QVWWw" comment="" name="JollOrder2_FieldSeparator" prompt="JollOrder2_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+</talendfile:ContextType>
