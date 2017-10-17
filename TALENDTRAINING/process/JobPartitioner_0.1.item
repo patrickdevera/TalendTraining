@@ -152,7 +152,7 @@
   </node>
   <node componentName="tPartitioner" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPartitioner_1" show="false"/>
-    <elementParameter field="TEXT" name="NUM_PARTITIONS" value="3"/>
+    <elementParameter field="TEXT" name="NUM_PARTITIONS" value="5"/>
     <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="HASH_PARTITION" value="false"/>
     <elementParameter field="TABLE" name="HASH_KEYS" show="false"/>
