@@ -249,7 +249,7 @@
       <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="48" name="ProductName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TotalPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
@@ -272,7 +272,7 @@
         <mapperTableEntries name="Sales" expression="Sales.Sales " type="id_Float" nullable="true"/>
         <mapperTableEntries name="Profit" expression="Sales.Profit " type="id_Double" nullable="true"/>
         <mapperTableEntries name="Temp" expression="Sales.Temp " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="ReceiptNum" expression="Orders.ReceiptNum " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ReceiptNum" expression="Orders.ReceiptNum " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ProductName" expression="Orders.ProductName " type="id_String" nullable="true"/>
         <mapperTableEntries name="Quantity" expression="Orders.Quantity " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="TotalPrice" expression="Orders.TotalPrice " type="id_Float" nullable="true"/>
@@ -297,12 +297,12 @@
         <mapperTableEntries name="Temp" type="id_Integer" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="Orders" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ReceiptNum" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ReceiptNum" expression="" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ProductName" type="id_String" nullable="true"/>
         <mapperTableEntries name="Quantity" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="TotalPrice" type="id_Float" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="RecInfo" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="RecInfo" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
         <mapperTableEntries name="ReceiptNumber" expression="Orders.ReceiptNum " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="DateTime" type="id_Date" nullable="true"/>
         <mapperTableEntries name="Branch_ID" expression="Branch.Branch_id " type="id_Integer" nullable="true" operator="="/>
@@ -451,13 +451,13 @@
     <elementParameter field="TEXT" name="LABEL" value="Orders"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Orders" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="48" name="ProductName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TotalPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Orders" name="REJECT">
-      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="48" name="ProductName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TotalPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -689,7 +689,7 @@
       <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="48" name="ProductName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TotalPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
@@ -709,7 +709,7 @@
       <column comment="" key="false" length="13" name="Sales" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="7" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="Profit" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="Temp" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ReceiptNum" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="48" name="ProductName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="1" name="Quantity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="6" name="TotalPrice" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
