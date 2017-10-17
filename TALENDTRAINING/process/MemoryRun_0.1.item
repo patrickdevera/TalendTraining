@@ -339,6 +339,11 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="true"/>
+    <elementParameter field="CHECK" name="HASH_PARTITION" value="true" show="false"/>
+    <elementParameter field="TABLE" name="HASH_KEYS" show="false">
+      <elementValue elementRef="KEY_COLUMN" value="FirstName"/>
+      <elementValue elementRef="KEY_COLUMN" value="LastName"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tSortRow_1">
@@ -362,6 +367,11 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="HASH_PARTITION" value="true" show="false"/>
+    <elementParameter field="TABLE" name="HASH_KEYS" show="false">
+      <elementValue elementRef="KEY_COLUMN" value="LastName"/>
+      <elementValue elementRef="KEY_COLUMN" value="FirstName"/>
+    </elementParameter>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
     <elementParameter field="CHECK" name="ACTIVEBREAKPOINT" value="true"/>
     <elementParameter field="TABLE" name="CONDITIONS">
