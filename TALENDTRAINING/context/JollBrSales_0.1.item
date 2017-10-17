@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_I9Y7ULMfEeei0OEA1QVWWw" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_I9Y7UbMfEeei0OEA1QVWWw" comment="" name="JollBrSales_Encoding" prompt="JollBrSales_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
-  <contextParameter xmi:id="_I9Y7UrMfEeei0OEA1QVWWw" comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/JollBrSales.csv"/>
-  <contextParameter xmi:id="_I9Y7U7MfEeei0OEA1QVWWw" comment="" name="JollBrSales_RowSeparator" prompt="JollBrSales_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
-  <contextParameter xmi:id="_I9Y7VLMfEeei0OEA1QVWWw" comment="" name="JollBrSales_FieldSeparator" prompt="JollBrSales_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ICWkgLMhEeei0OEA1QVWWw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ICWkgbMhEeei0OEA1QVWWw" comment="" name="JollBrSales_Encoding" prompt="JollBrSales_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
+  <contextParameter xmi:id="_ICWkgrMhEeei0OEA1QVWWw" comment="" name="JollBrSales_File" prompt="JollBrSales_File?" promptNeeded="false" type="id_File" value="C:/Users/Patrick de Vera/Desktop/Tasks/JollBrSales.csv"/>
+  <contextParameter xmi:id="_ICWkg7MhEeei0OEA1QVWWw" comment="" name="JollBrSales_RowSeparator" prompt="JollBrSales_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_ICWkhLMhEeei0OEA1QVWWw" comment="" name="JollBrSales_FieldSeparator" prompt="JollBrSales_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;,&quot;"/>
 </talendfile:ContextType>
