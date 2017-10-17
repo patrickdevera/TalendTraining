@@ -362,11 +362,11 @@
       <elementValue elementRef="INPUT_COLUMN" value="FirstName"/>
       <elementValue elementRef="FUNCTION" value=""/>
       <elementValue elementRef="OPERATOR" value="=="/>
-      <elementValue elementRef="RVALUE" value="Warren"/>
+      <elementValue elementRef="RVALUE" value="&quot;Warren&quot;"/>
       <elementValue elementRef="INPUT_COLUMN" value="LastName"/>
       <elementValue elementRef="FUNCTION" value=""/>
       <elementValue elementRef="OPERATOR" value="=="/>
-      <elementValue elementRef="RVALUE" value="Wilson"/>
+      <elementValue elementRef="RVALUE" value="&quot;Wilson&quot;"/>
     </elementParameter>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tLogRow_1">
