@@ -446,6 +446,12 @@
       <relatedItems xmi:id="_iD-IwLMgEeei0OEA1QVWWw" id="_Lqbl0LMeEeei0OEA1QVWWw" version="Latest" type="context"/>
       <relatedItems xmi:id="_iD-IwbMgEeei0OEA1QVWWw" id="_QFmJkLMeEeei0OEA1QVWWw" version="Latest" type="property"/>
       <relatedItems xmi:id="_iD-IwrMgEeei0OEA1QVWWw" id="_QFmJkLMeEeei0OEA1QVWWw - Branch" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_mq40ELMhEeei0OEA1QVWWw" id="_I9GAYLMfEeei0OEA1QVWWw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_mq40EbMhEeei0OEA1QVWWw" id="_n_Rw8LMdEeei0OEA1QVWWw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_mq40ErMhEeei0OEA1QVWWw" id="_OCP8ULMfEeei0OEA1QVWWw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_mq40E7MhEeei0OEA1QVWWw" id="_uD0tULMdEeei0OEA1QVWWw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_mq40FLMhEeei0OEA1QVWWw" id="_uD0tULMdEeei0OEA1QVWWw - Orders" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_mq40FbMhEeei0OEA1QVWWw" id="_OCP8ULMfEeei0OEA1QVWWw - Sales" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_3-yGMLJPEeevlaVzxGohvg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_3-yGMbJPEeevlaVzxGohvg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
