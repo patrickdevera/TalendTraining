@@ -271,7 +271,7 @@
         <mapperTableEntries name="FirstName" expression="row1.FirstName " type="id_String" nullable="true"/>
         <mapperTableEntries name="LastName" expression="row1.LastName " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="filter2" expressionFilter="33 &lt; row1.ID &lt;= 66" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="filter2" expressionFilter="33 &lt; row1.ID &amp;&amp; row1.ID &lt;= 66" activateExpressionFilter="true">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="FirstName" expression="row1.FirstName " type="id_String" nullable="true"/>
         <mapperTableEntries name="LastName" expression="row1.LastName " type="id_String" nullable="true"/>
