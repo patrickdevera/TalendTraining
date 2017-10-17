@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_Oj060LLcEeei0OEA1QVWWw" label="TalendTraining" description="This project is for training purposes only." language="java" technicalLabel="TALENDTRAINING" creationDate="2017-10-16T14:45:46.591+0800" author="_Oj060bLcEeei0OEA1QVWWw" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/patrickdevera/TalendTraining.git&quot;,&quot;login&quot;:&quot;patrickdevera&quot;,&quot;passwd&quot;:&quot;E3IscNlJJmB8yKd8MTrq5w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+    <technicalStatus xmi:id="_OkRmwLLcEeei0OEA1QVWWw" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_OkRmwbLcEeei0OEA1QVWWw" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_OkRmwrLcEeei0OEA1QVWWw" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_OkIc0LLcEeei0OEA1QVWWw" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_OkIc0bLcEeei0OEA1QVWWw" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_OkIc0rLcEeei0OEA1QVWWw" label="validated" code="VAL"/>
+    <migrationTask xmi:id="_Oj-r0LLcEeei0OEA1QVWWw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r0bLcEeei0OEA1QVWWw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r0rLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r07LcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.RemoveBinFolderMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r1LLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.UpdateExistentMigrationTasksToAdaptNewMigrationSystemMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r1bLcEeei0OEA1QVWWw" id="org.talend.mdm.repository.core.migrate.UpdateViewObjectPathMT" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r1rLcEeei0OEA1QVWWw" id="org.talend.mdm.repository.core.migrate.UpdateProcessObjectPathMT" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r17LcEeei0OEA1QVWWw" id="org.talend.designer.core.ui.preferences.migration.ChangeMysqlVersionForProjectSetting" breaks="5.2.0" version="5.1.3" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r2LLcEeei0OEA1QVWWw" id="org.talend.designer.core.ui.preferences.migration.ChangeOracleVersionForProjectSetting" breaks="5.2.0" version="5.2.1" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r2bLcEeei0OEA1QVWWw" id="org.talend.repository.hadoopcluster.model.migration.MoveHDFSAndHCatalogToHadoopFolderMigrationTask" breaks="5.3.0" version="5.3.0" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r2rLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.RemoveRoutineJarDependencyTask" breaks="5.4.1" version="5.4.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r27LcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.ChangePostgresDbVersionForProjectSetting" breaks="5.4.1" version="5.4.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r3LLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.EncryptPasswordInProjectSettingsMigrationTask" breaks="5.4.1" version="5.4.3" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r3bLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.UnifyPasswordEncryption4ProjectSettingsMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r3rLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.ChangeComponentSettingNameMigrationTask" breaks="5.5.2" version="5.6.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r37LcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.RemoveRoutineAntlrJarDependencyTask" breaks="6.0.0" version="6.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r4LLcEeei0OEA1QVWWw" id="org.talend.mdm.repository.core.migrate.RemoveRefNameMT" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r4bLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.RemoveProjectLibsFolder" breaks="6.0.0" version="6.0.1" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r4rLcEeei0OEA1QVWWw" id="org.talend.designer.maven.ui.ConfigMavenRepositoryRemove" breaks="6.0.1" version="6.0.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r47LcEeei0OEA1QVWWw" id="org.talend.mdm.repository.core.migrate.UpdateOperatorMigrationTask" breaks="6.2.0" version="6.2.0" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r5LLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.ChangeMappingFileMigrationTask" breaks="6.2.1" version="6.2.2" status="noimpact"/>
+    <migrationTask xmi:id="_Oj-r5bLcEeei0OEA1QVWWw" id="org.talend.repository.model.migration.AddJavaVersionMigrationTask" breaks="6.3.1" version="6.4.0" status="noimpact"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_Oj060bLcEeei0OEA1QVWWw" login="patrick.devera@novare.com.hk" firstName="Emil Patrick" lastName="De Vera" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
