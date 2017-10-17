@@ -4,7 +4,7 @@
   <orgomg.cwm.resource.record:RecordFile xmi:id="_OCP8UrMfEeei0OEA1QVWWw" name="default" dataManager="_OCP8UbMfEeei0OEA1QVWWw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OCP8U7MfEeei0OEA1QVWWw" id="__n2IQLMeEeei0OEA1QVWWw" label="Sales">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8VLMfEeei0OEA1QVWWw" label="Branch_ID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8VbMfEeei0OEA1QVWWw" label="Date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8VbMfEeei0OEA1QVWWw" label="Date" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8VrMfEeei0OEA1QVWWw" label="Sales" length="13" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8V7MfEeei0OEA1QVWWw" label="Profit" length="14" precision="8" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OCP8WLMfEeei0OEA1QVWWw" label="Temp" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
