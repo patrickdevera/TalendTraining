@@ -192,7 +192,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="Name" expression="row1.Name " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Address" expression="row1.Address " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Address" expression="row1.Address.substring(0, row1.Address.length()-3) " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateName" expression="row2.StateName " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
