@@ -193,8 +193,8 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tCreateTable_1">
       <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="FirstName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="LastName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="45" name="FirstName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="45" usefulColumn="true"/>
+      <column comment="" key="false" length="45" name="LastName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="45" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
