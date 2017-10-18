@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_AaacILO4EeeMVchsBdwKnQ" name="GenericConnection" id="_0UZskLO3EeeMVchsBdwKnQ" label="GenericConnection" dataPackage="_AakNI7O4EeeMVchsBdwKnQ _AakNJLO4EeeMVchsBdwKnQ _AakNJbO4EeeMVchsBdwKnQ _AakNJrO4EeeMVchsBdwKnQ _AakNJ7O4EeeMVchsBdwKnQ _AakNKLO4EeeMVchsBdwKnQ _AakNKbO4EeeMVchsBdwKnQ" DatabaseType="General JDBC" DriverJarPath="mysql-connector-java-5.1.30-bin.jar" DriverClass="com.mysql.jdbc.Driver" URL="jdbc:mysql://localhost:3306/Jollibee" Port="xxxx" Username="root" Password="NZNgK6DuncI=" ServerName="" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="JDBC" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_AaacIbO4EeeMVchsBdwKnQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_AaacJbO4EeeMVchsBdwKnQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_AaacJrO4EeeMVchsBdwKnQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_AaacJ7O4EeeMVchsBdwKnQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_AaacKLO4EeeMVchsBdwKnQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_AaacKbO4EeeMVchsBdwKnQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_AaacKrO4EeeMVchsBdwKnQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_AaacK7O4EeeMVchsBdwKnQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_AakNILO4EeeMVchsBdwKnQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_AakNIbO4EeeMVchsBdwKnQ" tag="DB ProductVersion" value="5.6.35"/>
+    <taggedValue xmi:id="_AakNIrO4EeeMVchsBdwKnQ" tag="DB IdentifierQuoteString" value="`"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNI7O4EeeMVchsBdwKnQ" name="information_schema" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNJLO4EeeMVchsBdwKnQ" name="amc" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNJbO4EeeMVchsBdwKnQ" name="jollibee" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNJrO4EeeMVchsBdwKnQ" name="mysql" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNJ7O4EeeMVchsBdwKnQ" name="performance_schema" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNKLO4EeeMVchsBdwKnQ" name="test" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_AakNKbO4EeeMVchsBdwKnQ" name="training" dataManager="_AaacILO4EeeMVchsBdwKnQ"/>
+</xmi:XMI>
