@@ -9,6 +9,8 @@
     <contextParameter comment="" name="HDFS1_JobHistory" prompt="HDFS1_JobHistory?" promptNeeded="false" repositoryContextId="_zMhsQLO8EeeMVchsBdwKnQ" type="id_String" value="http://10.23.16.44:10020"/>
   </context>
   <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;,&quot;-Dhadoop.home.dir=C:\\Hadoop\\hadoop-common-2.2.0-bin-master&quot;]}" show="false"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
