@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cqxzELO7EeeMVchsBdwKnQ" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_cqxzEbO7EeeMVchsBdwKnQ" comment="" name="HDFS_ResourceManager" prompt="HDFS_ResourceManager?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
-  <contextParameter xmi:id="_cqxzErO7EeeMVchsBdwKnQ" comment="" name="HDFS_ResourceManagerScheduler" prompt="HDFS_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
-  <contextParameter xmi:id="_cqxzE7O7EeeMVchsBdwKnQ" comment="" name="HDFS_NameNodeUri" prompt="HDFS_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://10.23.16.44:8088"/>
-  <contextParameter xmi:id="_cqxzFLO7EeeMVchsBdwKnQ" comment="" name="HDFS_StagingDirectory" prompt="HDFS_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
-  <contextParameter xmi:id="_cqxzFbO7EeeMVchsBdwKnQ" comment="" name="HDFS_User" prompt="HDFS_User?" promptNeeded="false" type="id_String" value="talend"/>
-  <contextParameter xmi:id="_cqxzFrO7EeeMVchsBdwKnQ" comment="" name="HDFS_JobHistory" prompt="HDFS_JobHistory?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_j9puULO8EeeMVchsBdwKnQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_j9puUbO8EeeMVchsBdwKnQ" comment="" name="HDFS_ResourceManager" prompt="HDFS_ResourceManager?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
+  <contextParameter xmi:id="_j9puUrO8EeeMVchsBdwKnQ" comment="" name="HDFS_ResourceManagerScheduler" prompt="HDFS_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
+  <contextParameter xmi:id="_j9puU7O8EeeMVchsBdwKnQ" comment="" name="HDFS_NameNodeUri" prompt="HDFS_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://10.23.16.44:8088"/>
+  <contextParameter xmi:id="_j9puVLO8EeeMVchsBdwKnQ" comment="" name="HDFS_StagingDirectory" prompt="HDFS_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  <contextParameter xmi:id="_j9puVbO8EeeMVchsBdwKnQ" comment="" name="HDFS_User" prompt="HDFS_User?" promptNeeded="false" type="id_String" value="talend"/>
+  <contextParameter xmi:id="_j9puVrO8EeeMVchsBdwKnQ" comment="" name="HDFS_JobHistory" prompt="HDFS_JobHistory?" promptNeeded="false" type="id_String" value="http://10.23.16.44:8088"/>
 </talendfile:ContextType>
