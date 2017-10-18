@@ -172,7 +172,7 @@
       <elementValue elementRef="JAR_NAME" value="mysql-connector-java-5.1.30-bin.jar"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;com.mysql.jdbc.Driver&quot;"/>
-    <elementParameter field="TEXT" name="TABLE" value="&quot;Orders&quot;"/>
+    <elementParameter field="TEXT" name="TABLE" value="&quot;Branch&quot;"/>
     <elementParameter field="CLOSED_LIST" name="FILE_FORMAT" value="textfile"/>
     <elementParameter field="CHECK" name="DELETE_TARGET_DIR" value="true"/>
     <elementParameter field="CHECK" name="APPEND" value="false"/>
