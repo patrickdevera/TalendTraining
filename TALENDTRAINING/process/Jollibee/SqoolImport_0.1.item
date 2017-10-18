@@ -188,7 +188,7 @@
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee where $CONDITIONS&quot;" show="false"/>
     <elementParameter field="LABEL" name="QUERY_LABEL" value="When importing a free-form query, you must specify a&#xA;&#x9;&#x9;&#x9;&#x9;destination directory. If you want to import the results of a query&#xA;&#x9;&#x9;&#x9;&#x9;in parallel, you must select a splitting column with --split-by&#xA;&#x9;&#x9;&#x9;" show="false"/>
     <elementParameter field="CHECK" name="USE_TARGET" value="true"/>
-    <elementParameter field="TEXT" name="TARGET" value="&quot;/home/user/target&quot;"/>
+    <elementParameter field="TEXT" name="TARGET" value="&quot;/tmp&quot;"/>
     <elementParameter field="CHECK" name="USE_SPLIT" value="false"/>
     <elementParameter field="TEXT" name="SPLIT" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_MAPPERS" value="false"/>
