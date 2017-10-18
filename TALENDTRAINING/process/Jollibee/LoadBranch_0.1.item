@@ -197,7 +197,7 @@
       <column comment="" key="false" length="10" name="Latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Zone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Branch" name="REJECT">
       <column comment="" key="false" length="2" name="Branch_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -295,7 +295,7 @@
       <column comment="" key="false" length="10" name="Latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Zone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Branch" name="REJECT">
       <column comment="" key="false" length="2" name="Branch_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
@@ -304,7 +304,7 @@
       <column comment="" key="false" length="10" name="Latitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Longtitude" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="8" sourceType="DOUBLE" type="id_Double" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="Zone" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="City_Province" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
