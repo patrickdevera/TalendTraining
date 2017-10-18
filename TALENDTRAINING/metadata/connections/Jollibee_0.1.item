@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_kFi3kLMjEeei0OEA1QVWWw" name="Jollibee" id="_gV6kILMjEeei0OEA1QVWWw" label="Jollibee" dataPackage="_kF1ygLMjEeei0OEA1QVWWw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/Jollibee?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Jollibee" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_kFi3kLMjEeei0OEA1QVWWw" name="Jollibee" id="_gV6kILMjEeei0OEA1QVWWw" label="Jollibee" dataPackage="_kBFhALO1EeeMVchsBdwKnQ" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/Jollibee?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Jollibee" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_kFi3kbMjEeei0OEA1QVWWw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_kFsokLMjEeei0OEA1QVWWw" tag="package filter" value=""/>
     <taggedValue xmi:id="_kFsokbMjEeei0OEA1QVWWw" tag="Status" value=""/>
@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_kFsomLMjEeei0OEA1QVWWw" tag="DB ProductVersion" value="5.6.35"/>
     <taggedValue xmi:id="_kFsombMjEeei0OEA1QVWWw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_kFi3krMjEeei0OEA1QVWWw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_i9RTkLO1EeeMVchsBdwKnQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_kF1ygLMjEeei0OEA1QVWWw" name="Jollibee" dataManager="_kFi3kLMjEeei0OEA1QVWWw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_kBFhALO1EeeMVchsBdwKnQ" name="Jollibee" dataManager="_kFi3kLMjEeei0OEA1QVWWw"/>
 </xmi:XMI>
