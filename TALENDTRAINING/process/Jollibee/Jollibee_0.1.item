@@ -260,7 +260,7 @@
       <column comment="" key="false" length="18" name="DeliveryLng" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="15" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="Out">
         <mapperTableEntries name="Branch_id" expression="Branch.Branch_id " type="id_Integer" nullable="true"/>
@@ -305,7 +305,7 @@
         <mapperTableEntries name="DeliveryLat" type="id_Float" nullable="true"/>
         <mapperTableEntries name="DeliveryLng" type="id_Float" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="Orders" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ReceiptNum" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ProductName" type="id_String" nullable="true"/>
         <mapperTableEntries name="Quantity" type="id_Integer" nullable="true"/>
@@ -714,9 +714,9 @@
     <elementParameter field="TEXT" name="NUM_PARTITIONS" value="3" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="RecInfo" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="8" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tMap_1">
+  <connection connectorName="FLOW" label="Orders" lineStyle="8" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Orders" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_3" show="false"/>
