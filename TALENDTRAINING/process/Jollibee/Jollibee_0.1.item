@@ -299,14 +299,14 @@
         <mapperTableEntries name="Temp" type="id_Integer" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="RecInfo" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
-        <mapperTableEntries name="ReceiptNumber" expression="Orders.ReceiptNum " type="id_Integer" nullable="true" operator="="/>
+        <mapperTableEntries name="ReceiptNumber" expression="" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="DateTime" type="id_Date" nullable="true"/>
         <mapperTableEntries name="Branch_ID" expression="Branch.Branch_id " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="DeliveryLat" type="id_Float" nullable="true"/>
         <mapperTableEntries name="DeliveryLng" type="id_Float" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="Orders" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ReceiptNum" type="id_Integer" nullable="true"/>
+      <inputTables sizeState="INTERMEDIATE" name="Orders" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ReceiptNum" expression="RecInfo.ReceiptNumber " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="ProductName" type="id_String" nullable="true"/>
         <mapperTableEntries name="Quantity" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="TotalPrice" type="id_Float" nullable="true"/>
