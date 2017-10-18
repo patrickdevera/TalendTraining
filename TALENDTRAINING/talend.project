@@ -454,6 +454,8 @@
       <relatedItems xmi:id="_cW80MbMjEeei0OEA1QVWWw" id="_ITIWALMiEeei0OEA1QVWWw" version="Latest" type="property"/>
       <relatedItems xmi:id="_cW80MrMjEeei0OEA1QVWWw" id="_ITIWALMiEeei0OEA1QVWWw - RecInfo" version="Latest" type="schema"/>
       <relatedItems xmi:id="_uI82MLMjEeei0OEA1QVWWw" id="_gV6kILMjEeei0OEA1QVWWw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_bHojILOsEeeMVchsBdwKnQ" id="_uD0tULMdEeei0OEA1QVWWw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_bHojIbOsEeeMVchsBdwKnQ" id="_uD0tULMdEeei0OEA1QVWWw - Orders" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_nerSYLMqEeei0OEA1QVWWw">
       <baseItem xmi:id="_nerSYbMqEeei0OEA1QVWWw" id="_dnntsLMqEeei0OEA1QVWWw" version="0.1" type="job"/>
